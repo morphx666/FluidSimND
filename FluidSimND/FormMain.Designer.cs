@@ -35,7 +35,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FluidSim2";
+            this.Text = "FluidSimND";
             this.Load += new System.EventHandler(this.FormMain_Load);
             this.ResumeLayout(false);
 

@@ -31,6 +31,8 @@ namespace FluidSim2 {
         private void FormMain_Load(object sender, EventArgs e) {
             fluid = new Fluid2D(size, 0.000005f, 0.0000001f, 0.02f);
 
+            this.Text += " " + (fluid is Fluid2D ? "2D" : "3D");
+
             z = fluid.size / 2;
             this.Size = new Size(fluid.size * zoom, fluid.size * zoom);
 
